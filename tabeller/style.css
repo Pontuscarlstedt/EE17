@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+
+}
+table {
+    background-color: aquamarine;
+    padding: 10px;
+    border-spacing: 5px;
+    width: 900px;
+}
+caption{
+    background-color: darkcyan;
+    color: black;
+    font-family: 'Playball', cursive;
+    font-size: 70px; 
+    padding: 50px;
+}
+tr {
+    font-family: 'Roboto', sans-serif;
+    
+}
+th {
+    background-color: #ffff80;
+    padding: 10px;
+}
+td {
+    background-color: #ffffff;
+    padding: 10px;
+}
+img {
+    width: 130px;
+}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+
+body{
+    background-color: black;
+}
+h1,a,p{
+    color: white;
+    font-family: 'Playball', cursive;
+}
