@@ -1,0 +1,31 @@
+body {
+   
+
+}
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+} 
+caption {
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 
+}
+
+tr {
+    border: 5px;
+}
+th {
+    border-bottom: 1px solid #ccc;  
+    padding: 10px;
+}
+td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+img {
+    width: 50px;
+}
