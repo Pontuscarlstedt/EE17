@@ -1,0 +1,20 @@
+body {
+
+}
+table {
+    width: 600px;
+
+}
+caption {
+
+}
+tr:nth-child(even) {
+    background-color: lightgrey;
+
+}
+th {
+
+}
+td {
+
+}
