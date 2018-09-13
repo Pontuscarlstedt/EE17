@@ -1,20 +1,33 @@
-body {
-
+body { background-image: url(https://www.allsvenskan.se/_/asset/no.seeds.app.sef:1528319630/img/allsvenskan-swirl.png);
+    background-repeat: no-repeat;
+ 
 }
 table {
     width: 600px;
-
+    border-collapse: collapse;
+    font-family: sans-serif;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 200px auto 0 auto;
+    
 }
 caption {
-
+    background-color: darkblue;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 12px;
 }
 tr:nth-child(even) {
     background-color: lightgrey;
-
+       
 }
 th {
+    padding: 5px;
 
 }
 td {
+    text-align: center;
+    padding: 8px;
 
 }

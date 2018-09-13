@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000 ;
+
+}
+div {
+    background-image: url(./bilder/leopard.jpg);
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 15px;
+    font-family: 'Courgette', cursive;
+    color: #ef9321;
+    padding-left: 30px;
+    padding-top: 120px;
+    margin: 100px auto;
+}
+h1 {
+    font-size: 50px;
+    text-shadow: 8px 1px 5px #000;
+
+}
+h2 {
+    font-size: 27px;
+    text-shadow: 6px 1px 5px #000;
+    
+
+}
+h3 {
+    font-size: 30px;
+    text-shadow: 6px 1px 5px #000;
+    margin-top: 50px;
+
+}
