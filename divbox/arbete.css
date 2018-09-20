@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Tangerine');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body.box1 { 
+    background-image: url(./bilder/kronor.jpg);
+}
+body.box2 { 
+    background-image: url(./bilder/stjärna.jpg);
+}
+body.box3 { 
+    background-image: url(./bilder/kors.jpg);
+}
+div {
+    width: 600px;
+    background-color: white;
+    border: 3px dashed #000;
+    margin:  50px auto 0 auto;
+    padding:80px;
+    border-radius: 10px;
+
+}
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+
+}
+p {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    margin: 20px 0;
+
+}
+a {
+    text-decoration: none;
+
+}
