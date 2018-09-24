@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Taviraj');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/*sidan utseende */
+body {
+    background: url(./bilder/daggros.jpg);
+    background-size: 5000px;
+    background-attachment: fixed;
+    
+
+}
+div.kontainer {
+    width: 800px;
+    padding: 30px;
+    color: white;
+    background-color: #4A4E69;
+    margin: 150px auto;
+    border-radius: 5px;
+  
+
+}
+h1 { 
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 3px 3px 10px #000;
+
+}
+div.ros {
+    font-family: 'Taviraj', serif;
+    background-color: #C9ADA7;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+img { width: 400px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #000;
+
+}
+p {
+
+}
+.vanster {
+    float: left;
+    margin-right: 20px;
+
+}
+.hoger {
+    float: right;
+    margin-left: 20px;
+}
+hr {
+    clear: both;
+    visibility: hidden;
+
+}
+.texthoger {
+    text-align: right;
+}
