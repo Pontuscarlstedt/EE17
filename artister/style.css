@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans layout */
+body { background: #000000;
+
+}
+.kontainer {
+    width: 800px;
+    padding: 50px;
+    margin: 20px auto;
+    background: grey;
+    border-radius: 10px;
+
+}
+
+
+/* Menyn */
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    padding: 10px;
+}
+li {
+    display: inline;
+    list-style-type: none;
+}
+li a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #CC9999;
+    border-radius: 10px;
+    box-shadow: 7px 4px 4px #000000;
+}
+li a:hover {
+    background: #996666;
+}
+li a.current {
+    background: #2A324B;
+    color: #000000;
+}
+
+/* Sidans innehåll */
+h1 {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    color:white;
+    font-size: 60px;
+    padding: 20px;
+    text-shadow: 5px 3px 3px #000;
+    
+
+}
+h2 { color: white;
+    font-family: 'Great Vibes', cursive;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 3px 3px #000;
+
+}
+img {
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+
+}
+p {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding: 15px;
+
+}
+.sidfot {
+
+}
