@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Denk+One');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Sidans Utseende */
+body {
+    background-image: url(./bilder/bakgrund.jpg);
+    background-size: 1550px;
+
+}
+h1 {
+    font-family: 'Denk One', sans-serif;
+    color: #00a6ad;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+
+}
+h2 {
+    color: #00a6ad;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+div {
+    width: 550px;
+    margin: 100px 100px;
+    
+
+
+}
+img { 
+    background-color: #a9e5e5;
+    padding: 15px;
+    border-radius: 5px;
+    width: 550px;
+
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #a9e5e5;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+
+}
+/* Tabellen */
+table { border-color:#a9e5e5;
+    border-spacing: 1px;
+    width: 550px;
+    padding:1px;
+    
+
+}
+caption {
+    color: #00a6ad;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 20px;
+
+}
+tr { 
+    
+
+}
+th { color: #00a6ad;
+    background-color: #a9e5e5;
+    border-radius: 4px;
+    padding: 10px;
+    
+   
+
+}
+td { color:white;
+    padding: 10px;
+    
+    
+
+}
+a { color: red;
+
+}
