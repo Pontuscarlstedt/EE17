@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grunder i Javascript</title>
+</head>
+<body>
+    <h1>Grunder i Javascript</h1>
+    <p id="adress">Hemlig adress</p>
+    <p id="mobil">Hemlig mobil</p>
+
+    <button onclick="visaAdress()">Läs in adress</button>
+    <button onclick="visamobil()">Läs in mobil</button>
+    <p onclick="visaeasteregg()">Visa easter egg</p>
+
+
+    <script>
+        function visaAdress() {
+
+            /* Ansluta till p-elementet som jag vill ändra på */
+            var eleAdress = document.querySelector('#adress');
+
+            /* Skriv texten inuti p-elementet */
+            eleAdress.textContent = 'Linjemästarvägen 26, 16270 Vällingby';
+        }
+
+        function visamobil() {
+            var elemobil = document.querySelector('#mobil');
+
+            elemobil.textContent = '0768804444';
+
+        }
+
+        function visaeasteregg() {
+            var eleeasteregg = document.querySelector('h1')
+
+            eleeasteregg.textContent = '"INGEN MÄNNISKA ÄR PERFEKT... MEN JAG ÄR IALLAFALL VÄLDIGT NÄRA" - Kasper Bergman';
+
+            /* Ändra färg */
+            eleeasteregg.style.color = 'white';
+
+            /* Anslut till body-elementet */
+            var eleBody = document.querySelector('body');
+            /* Ändra bakgrund */
+            eleBody.style.backgroundColor = 'black';
+            eleBody.style.backgroundImage = 'url("./bilder/depositphotos_101179268-stock-photo-bearded-crazy-person-lunatic (1).jpg")';
+
+            /* Infoga bild i sidan */
+            eleeasteregg.insertAdjacentHTML('afterend', '<img src="./bilder/giphy.gif">');
+
+        }
+    </script>
+
+</body>
+</html>

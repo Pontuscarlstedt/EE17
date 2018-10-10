@@ -15,17 +15,21 @@
         function fragaalder() {
             var alder = prompt('Hur gammal är du?');
             console.log('Hej Pontus, din ålder är ' + alder);
-        }
 
+            if (alder < 15) {
+                alert('Ring sos på 08-508 250 00!');              
+            } else{
+                if (alder < 20) {
+                    alert('Tråkigt! Be din kompis att köpa ut!');
+                } else {
+                    alert('Yipee! Köp en vodka till mig också!');
+                }                
+                
+            }      }
         function vartbordu() {
             var bor = prompt('Vart bor du?');
             console.log('Hej Pontus, du bor på ' + bor);
-
-
-
-
         }
     </script>
-
 </body>
 </html>
