@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leka med animationer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <style>
+        p {display:none; 
+
+        }
+    </style>
+</head>
+<body>
+    <h1 class="animated">Leka med animationer</h1>
+    <button onclick="fadeout()">Fadeout!</button>
+    <button onclick="fadein()">Fadein!</button>
+
+    <h2>Volvo</h2>
+    <p class="text1">Jag hade köpt en Chevrolet från -63 och rev iväg på stan och skulle se
+            Om där fanns nåt att sätta staken i, nån liten brud med glöd och energi
+            Jag gasade på och flinade åt dom, som blev rätt sneda när jag körde om
+            Men plötsligt hörde jag ett jävla liv, det var nån tokig bonnafan som körde förbi
+            </p>
+            <p class="text2">En Volvo, Volvo, en gammal risig Volvo, körde om min fina Chevrolet
+                    Volvo, Volvo, en skitig jävla Volvo
+                    Jag höll på att svimma, en Volvo körde om en jänkare
+                    </p>
+<button onclick="visaText()">Varning hemsk musik!</button>
+    <script>
+        var elementText = document.querySelector('p')
+        elementText.style = 'diplay:show'
+
+
+
+        function fadeout() {
+            var element = document.querySelector('h1');
+            element.classList.add('Fadeout');
+            element.classList.remove('Fadein');
+        }
+
+        function fadein() {
+            var element = document.querySelector('h1');
+            element.classList.add('Fadein');
+            element.classList.remove('Fadeout');
+        }
+    </script>
+
+</body>
+</html>
