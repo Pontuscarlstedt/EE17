@@ -1,0 +1,34 @@
+body { 
+    background: url('./bilder/bil2.jpg');
+    background-size: 1600px;
+
+}
+.kontainer {
+    margin-top: 150px;
+    margin-left: 450px;
+    width: 600px;
+    background-color: lightgrey;
+    border-radius: 3px;
+    padding: 20px 20px 20px 20px;
+
+
+}
+label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+
+}
+input {
+
+}
+.svar {
+    background-color: white;
+    border-radius: 3px;
+
+}
+button {
+    background-color: red;
+    border-radius: 3px;
+
+}
