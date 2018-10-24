@@ -1,0 +1,86 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+.kontainer {
+    background-color: grey;
+    color: white;
+    width: 700px;
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 20px;
+
+}
+h1 {}
+.kolumner {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+
+}
+
+label {
+    width: 180px;
+    display: inline-block;
+    margin: 20px 0;
+    text-align: center;
+
+}
+button {
+    padding: 5px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+button:hover {
+    background-color: grey;
+
+}
+button:active {
+    background-color: lightgrey;
+}
+.output {
+    background: white;
+    columns: black;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+p {
+    color: black;
+}
+img {
+    width: 300px;
+    border: 10px solid white;
+    filter: url('bilder/photo-1540298287461-5e2125e7e423\ \(1\).jpg')
+
+}
+.suddigt {
+    filter: blur(5px);
+
+}
+.graskala {
+    filter: grayscale(80%);
+}
+.sepia {
+    filter: sepia(80%);
+}
