@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../js_grunder/bilder/backgroud.jpg);
+    background-size: 1550px;
+
+
+}
+.kontainer {
+    width: 800px;
+    margin: 20px auto;
+    color: white;
+}
+h1 {
+    font-family: 'Marck Script', cursive;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+
+
+}
+.yta {
+    background-color: grey;
+    height: 600px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: center;
+}
+i {
+    font-size: 60px;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 1s;
+
+}
+i:hover{
+    color:darkgray;
+}
