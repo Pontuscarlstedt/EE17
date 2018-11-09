@@ -24,15 +24,21 @@ body {
 .kontainer {
     width: 800px;
     margin: 20px auto;
-    color: white;
+
+
 }
 h1 {
     font-family: 'Marck Script', cursive;
-    color: white;
+
     font-size: 100px;
     text-align: center;
     border-bottom: 3px solid black;
     border-top: 3px solid black;
+    text-shadow: 4px 5px white;
+    border-width: 3px;
+    border-top: 0px;
+    
+
 
 
 }
@@ -49,8 +55,12 @@ i {
     cursor: pointer;
     transition-property: color;
     transition-duration: 1s;
+    color:white;
 
 }
 i:hover{
     color:darkgray;
+}
+.dold {
+
 }
