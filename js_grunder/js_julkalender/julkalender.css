@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../bilder/freestocks-org-470416-unsplash.jpg);
+    background-size: 1550px;
+}
+.kontainer {
+    width: 1000px;
+    margin: 30px auto;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    background-image: url(../bilder/annie-spratt-469223-unsplash.jpg);
+    background-size: 1150px;
+}
+h1 {
+    font-size: 80px;
+    color: white;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.dag {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+    padding-top: 15px;
+    font-size: 30px;
+    transition-duration: 1s;
+
+}
+.dag:hover {
+    background-color: rgb(80, 102, 80);
+
+}
