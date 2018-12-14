@@ -1,0 +1,37 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../bilder/annie-spratt-469223-unsplash.jpg);
+    background-size: 1550px;
+
+}
+.kontainer {
+    width: 700px;
+    padding: 20px;
+    margin: 50px auto;
+    font-family: sans-serif;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 20px;
+
+}
+label {
+   text-align: right;
+   align-self: center;
+
+}
+input, button {
+    padding: 10px;
+}
