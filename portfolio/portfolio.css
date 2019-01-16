@@ -1,0 +1,134 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hela layouten */
+body {
+    background-image: url(./bilder/jeremy-bishop-455695-unsplash.jpg);
+    background-size: 1530px;
+    background-attachment: fixed;
+
+}
+.kontainer {
+    width: 960px;
+    margin: auto;
+    color: white;
+
+}
+
+/* Sidhuvudet */
+header {
+    color: white;
+
+
+}
+header h1 {
+
+}
+header h2 {
+
+}
+header nav {
+    background-color: black;
+    padding: 10px;  
+    margin: 20px 0;  
+
+   
+
+}
+header ul {
+
+}
+header li {
+    display: inline;
+
+}
+header a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Sidans innehåll */
+main {
+
+    display: grid;
+    grid-template-columns: 650px 280px;
+    justify-content: space-between;
+
+
+
+}
+main .innehall {
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px;
+}
+main article {
+
+}
+main h3 {
+
+}
+main figure {
+
+}
+main img {
+    width: 500px;
+
+}
+main figcaption {
+
+}
+main p {
+
+}
+main a {
+
+}
+
+/* Sidebar */
+aside {
+
+
+}
+aside section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+aside h4 {
+
+}
+aside ul {
+
+}
+aside li {
+
+}
+aside a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Sidfoten */
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 10px 0;
+
+}
+footer p {
+
+}
