@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Charm|Open+Sans+Condensed:300');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -20,26 +21,29 @@ body {
 .kontainer {
     width: 960px;
     margin: auto;
-    color: white;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
 
 }
 
 /* Sidhuvudet */
 header {
-    color: white;
-
-
+    color: black;
+    border-radius: 10px;
 }
 header h1 {
-
+    font-family: 'Charm', cursive;
 }
 header h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
 
 }
 header nav {
-    background-color: black;
+    background-color: rgba(245, 245, 220, 0.678);
     padding: 10px;  
     margin: 20px 0;  
+    border-radius: 10px;
 
    
 
@@ -49,11 +53,13 @@ header ul {
 }
 header li {
     display: inline;
+    margin: 0 10px;
 
 }
 header a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
     
 }
 
@@ -63,14 +69,16 @@ main {
     display: grid;
     grid-template-columns: 650px 280px;
     justify-content: space-between;
-
-
+    grid-template-areas:
+    "innehall sidebar";
+ 
 
 }
 main .innehall {
-    background-color: black;
+    background-color: rgba(245, 245, 220, 0.671);
     border-radius: 5px;
     padding: 20px;
+    grid-area: innehall;
 }
 main article {
 
@@ -83,6 +91,7 @@ main figure {
 }
 main img {
     width: 500px;
+    border: 10px solid white;
 
 }
 main figcaption {
@@ -92,18 +101,21 @@ main p {
 
 }
 main a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 
 }
 
 /* Sidebar */
 aside {
+    grid-area: sidebar;
 
 
 }
 aside section {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: black;
+    background-color: rgba(245, 245, 220, 0.671);
     border-radius: 5px;
 }
 aside h4 {
@@ -113,18 +125,21 @@ aside ul {
 
 }
 aside li {
+    list-style: none;
 
 }
 aside a {
-    color: white;
+    color: black;
     text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+
 
 }
 
 /* Sidfoten */
 footer {
-    background-color: black;
-    color: white;
+    background-color: rgba(245, 245, 220, 0.664);
+    color: black;
     padding: 5px;
     margin: 10px 0;
 
