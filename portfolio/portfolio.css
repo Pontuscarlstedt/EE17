@@ -138,6 +138,7 @@ footer {
 
 }
 footer p {
+    padding: 20px 0;
 
 }
 @media (min-width: 640px) {
@@ -153,6 +154,7 @@ footer p {
 @media (min-width: 960px) {
     .kontainer {
         width: 960px;
+        padding: 0px;
         margin: auto;
         font-family: 'Open Sans Condensed', sans-serif;
     }
