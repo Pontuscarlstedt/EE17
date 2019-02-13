@@ -1,0 +1,36 @@
+.mars main, footer {
+    background: #958F83;
+}
+.wanderer video {
+    position: fixed;
+    z-index: -100;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.wanderer .container, .wanderer footer {
+    background: none;
+    box-shadow: none;
+    color: white;
+    text-align: center;
+    
+}
+.wanderer header h1, .wanderer header a {
+    color: white;
+}
+.jupiter main, .jupiter footer {
+    background-color: #402277; 
+}
+.ceres main, .ceres footer {
+    background-color: #78899C;
+}
+.titan main, .titan footer {
+    background-color: #E4A445;
+}
+.venus main, .venus footer {
+    background-color: #F7BCB3;
+}
