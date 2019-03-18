@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/*.menu:hover .bar {*/
+/*  transform: rotate(-10deg);*/
+/*}*/
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+
+}
+header {
+    background-color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.kontainer {
+    background-color: black;
+}
+h1 {
+    color: black;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    margin-left: 125px;
+}
+.mail {
+    width: 50px;
+    float: right;
+    margin: 20px;
+}
+.tour {
+    color: white;
+    margin-left: 60px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 55px;
+
+}
+.date {
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 30px;
+
+
+
+
+}
+.date1 {
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 10px;
+    
+
+
+}
+table {
+    width: 200px;
+    border-spacing: 10px;
+    padding: 20px;
+
+
+}
+tr {
+
+}
+td {
+    padding-left: 60px;
+
+    color: white;
+    text-align: left;
+}
+h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+}
+
+.tourmain {
+    background-image: url(./bilder/rawpixel-191102-unsplash.jpg);
+    background-size: 1550px;
+    
+
+}
+footer {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.fact {
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+}
+.musicmain {
+    background-color: rgb(53, 52, 52);
+
+}
+.cover{ 
+    width: 400px;
+    float: left;
+    padding: 100px;
+
+}
+.music {
+    color: white;
+
+}
+.wakemeup {
+ 
+    
+
+}
+.firstone {
+
+
+}
+.titanium {
+
+
+
+}
+.musicfact {
+    font-size: 20px; 
+   padding-top: 100px;
+}
+hr {
+    clear: both;
+    visibility: hidden;
+
+}
+.hmusic {
+    color: white;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 100px;
+    padding-top: 50px;
+
+}

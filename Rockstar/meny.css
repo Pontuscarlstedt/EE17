@@ -1,0 +1,77 @@
+body {
+    background: black;
+    color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+
+  }
+  
+  h1, h5 {
+    font-weight: 100;
+  }
+  
+  section {
+    background: black;
+    padding: 6rem 3rem;
+    margin: 0;
+  }
+  
+  .hamburger {
+    position: absolute;
+    margin: 35px;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 50px;
+    height: 6px;
+    background: black;
+    margin-bottom: 5px;
+  }
+  
+  .menu {
+    width: 320px;
+    height: 100%;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: -320px;
+    transition: left .1s;
+
+  }
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+
+}
+  
+  .menu-item:first-child {
+    margin-top: 180px;
+  }
+  
+  .menu--open {
+    left: 0;
+  }
+  
+  .menu-item {
+    color: white;
+    width: 100%;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+
+  }
+  
+  .menu-item:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+  }
+  .menu-item:hover a{
+    color: black;
+  }
